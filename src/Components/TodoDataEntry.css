@@ -1,0 +1,27 @@
+
+.form-todo{
+    padding: 1rem 0.75rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.entry-todo{
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.entry-todo input{
+    background-color:white;
+    padding: 0.5rem 1rem;
+    border: inherit;
+    border-radius: 1.75rem;
+    font-size: 1rem;
+}
+.entry-todo button{
+    background-color: white;
+    border-radius:50%;
+    border: inherit;
+    padding: 1rem 1rem;
+    width: 3rem;
+    height: 3rem;
+}

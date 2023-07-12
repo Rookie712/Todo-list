@@ -1,0 +1,39 @@
+.main-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    width: 84%;
+    padding-top: 1.25rem;
+    padding-bottom:1.25rem;
+    background-color: #001C30;
+    border: inherit;
+    border-radius: 2rem;
+    color: white;
+    flex-shrink: 0;
+}
+.task{
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 66%;
+    word-break: break-all;
+    align-self: center;
+}
+.circle-item{
+    font-size: 1rem;
+    align-self: center;
+}
+.check-item{
+    font-size: 1.5rem;
+    align-self: center;
+    color: white;
+}
+ .main-item button{
+    background-color: #1F6E8C;
+    border: inherit;
+    border-radius:50%;
+    height: 2rem;
+    width: 2rem;
+    align-self: center;
+ }
